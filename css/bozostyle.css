@@ -224,7 +224,7 @@
 }
 
 .block_tokenomics {
-  background-color: #f39c12;
+  background-color: #ffd101;
   border: 3px solid #8f7400;
   border-bottom-width: 8px;
   border-radius: 20px;
@@ -236,7 +236,7 @@
 }
 
 .tokenomics_in {
-  background-color: #f39c12;
+  background-color: #e5be1a;
   border-radius: 20px;
   flex-flow: column;
   justify-content: flex-start;
@@ -248,7 +248,7 @@
 }
 
 .tokenomics_details {
-  background-color: #f1c40f;
+  background-color: #c6a10a;
   border-bottom: 3px solid #ffdd4e;
   border-radius: 12px;
   justify-content: center;
@@ -265,7 +265,7 @@
   font-size: 20px;
 } */
 .h2 {
-  color: #000;
+  color: #ffed9f;
   font-family: "Titan One", sans-serif;
   font-size: 20px;
 }
@@ -336,10 +336,10 @@
 
 .chara_footer {
   pointer-events: none;
-  height: 400px;
+  height: 484px;
   position: relative;
+  margin-top: 106px;
 }
-
 .grass_footer {
   background-image: url("../images/grass_01.png");
   background-position: 0 100%;
@@ -469,10 +469,11 @@
   inset: auto auto 0%;
   margin-bottom: 100px;
 }
+
 .logo {
   height: 40%;
   position: absolute;
-  inset: 3% auto auto;
+  inset: 5% auto auto;
   /* margin-bottom: 48px; */
 }
 .grass_hero {
@@ -616,9 +617,64 @@
     font-size: 15px;
     line-height: 25px;
   }
+
   .chara_footer {
     pointer-events: none;
-    width: 39%;
+    width: 60%;
     height: auto;
   }
+}
+.outlineds {
+  font-weight: 900;
+
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  color: #fff1d6; /* fill color */
+
+  /* Main outline (works in Chrome, Safari, Edge) */
+  -webkit-text-stroke: 13px #0b0b0b;
+  paint-order: stroke fill;
+
+  /* Fallback outline for Firefox */
+  text-shadow: 0 1px #0b0b0b, 0 -1px #0b0b0b, 1px 0 #0b0b0b, -1px 0 #0b0b0b,
+    1px 1px #0b0b0b, -1px -1px #0b0b0b, 1px -1px #0b0b0b, -1px 1px #0b0b0b,
+    2px 0 #0b0b0b, -2px 0 #0b0b0b, 0 2px #0b0b0b, 0 -2px #0b0b0b, 3px 0 #0b0b0b,
+    -3px 0 #0b0b0b, 0 3px #0b0b0b, 0 -3px #0b0b0b;
+}
+.outlined {
+  font-weight: 900;
+  font-size: 140px;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  color: #fff1d6; /* fill color */
+  font-family: "Titan One", sans-serif;
+
+  /* Main outline (works in Chrome, Safari, Edge) */
+  -webkit-text-stroke: 18px #0b0b0b;
+  paint-order: stroke fill;
+
+  /* Fallback outline for Firefox */
+  text-shadow: 0 1px #0b0b0b, 0 -1px #0b0b0b, 1px 0 #0b0b0b, -1px 0 #0b0b0b,
+    1px 1px #0b0b0b, -1px -1px #0b0b0b, 1px -1px #0b0b0b, -1px 1px #0b0b0b,
+    2px 0 #0b0b0b, -2px 0 #0b0b0b, 0 2px #0b0b0b, 0 -2px #0b0b0b, 3px 0 #0b0b0b,
+    -3px 0 #0b0b0b, 0 3px #0b0b0b, 0 -3px #0b0b0b;
+}
+
+.outlinedtit {
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  color: #fff1d6; /* fill color */
+  font-family: "Titan One", sans-serif;
+
+  /* Main outline (works in Chrome, Safari, Edge) */
+  -webkit-text-stroke: 18px #0b0b0b;
+  paint-order: stroke fill;
+
+  /* Fallback outline for Firefox */
+  text-shadow: 0 1px #0b0b0b, 0 -1px #0b0b0b, 1px 0 #0b0b0b, -1px 0 #0b0b0b,
+    1px 1px #0b0b0b, -1px -1px #0b0b0b, 1px -1px #0b0b0b, -1px 1px #0b0b0b,
+    2px 0 #0b0b0b, -2px 0 #0b0b0b, 0 2px #0b0b0b, 0 -2px #0b0b0b, 3px 0 #0b0b0b,
+    -3px 0 #0b0b0b, 0 3px #0b0b0b, 0 -3px #0b0b0b;
 }
