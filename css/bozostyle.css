@@ -500,6 +500,43 @@
   .logo {
     height: 28%;
     position: absolute;
+    inset: 21% auto auto;
+    /* margin-bottom: 48px; */
+  }
+  .outlinedtit {
+    font-weight: 900;
+    font-size: 117px;
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    color: #fff1d6;
+    font-family: "Titan One", sans-serif;
+    -webkit-text-stroke: 18px #0b0b0b;
+    paint-order: stroke fill;
+    text-shadow: 0 1px #0b0b0b, 0 -1px #0b0b0b, 1px 0 #0b0b0b, -1px 0 #0b0b0b,
+      1px 1px #0b0b0b, -1px -1px #0b0b0b, 1px -1px #0b0b0b, -1px 1px #0b0b0b,
+      2px 0 #0b0b0b, -2px 0 #0b0b0b, 0 2px #0b0b0b, 0 -2px #0b0b0b,
+      3px 0 #0b0b0b, -3px 0 #0b0b0b, 0 3px #0b0b0b, 0 -3px #0b0b0b;
+  }
+  .outlined {
+    font-weight: 900;
+    font-size: 86px;
+    line-height: 0.9;
+    letter-spacing: 0.02em;
+    color: #fff1d6;
+    font-family: "Titan One", sans-serif;
+    -webkit-text-stroke: 18px #0b0b0b;
+    paint-order: stroke fill;
+    text-shadow: 0 1px #0b0b0b, 0 -1px #0b0b0b, 1px 0 #0b0b0b, -1px 0 #0b0b0b,
+      1px 1px #0b0b0b, -1px -1px #0b0b0b, 1px -1px #0b0b0b, -1px 1px #0b0b0b,
+      2px 0 #0b0b0b, -2px 0 #0b0b0b, 0 2px #0b0b0b, 0 -2px #0b0b0b,
+      3px 0 #0b0b0b, -3px 0 #0b0b0b, 0 3px #0b0b0b, 0 -3px #0b0b0b;
+  }
+  .h1.h1_3 {
+    line-height: 93px;
+  }
+  .logo {
+    height: 28%;
+    position: absolute;
     inset: 10% auto auto;
     /* margin-bottom: 48px; */
   }
